@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/CheckSolution"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Итого проверено примеров"
+        android:textSize="25dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="20dp"/>
+
+    <TextView
+        android:id="@+id/CheckSolutionValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textSize="30dp"
+        android:layout_marginTop="18dp"
+        android:layout_marginStart="380dp" />
+
+    <TextView
+        android:id="@+id/True"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Правильно"
+        android:textSize="20dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginStart="40dp" />
+
+    <TextView
+        android:id="@+id/False"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Неправильно"
+        android:textSize="20dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginStart="240dp" />
+
+
+    <TextView
+        android:id="@+id/TrueValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textSize="20dp"
+        android:layout_marginTop="140dp"
+        android:layout_marginStart="305dp" />
+
+
+    <TextView
+        android:id="@+id/FalseValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textSize="20dp"
+        android:layout_marginTop="140dp"
+        android:layout_marginStart="90dp" />
+
+    <TextView
+        android:id="@+id/Time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ВРЕМЯ(сек)"
+        android:textSize="25dp"
+        android:layout_marginTop="180dp"
+        android:layout_marginStart="140dp" />
+
+    <TextView
+        android:id="@+id/TimeMin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Минимум"
+        android:textSize="20dp"
+        android:layout_marginTop="230dp"
+        android:layout_marginStart="40dp" />
+
+    <TextView
+        android:id="@+id/TimeMin0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textSize="20dp"
+        android:layout_marginTop="260dp"
+        android:layout_marginStart="80dp" />
+
+    <TextView
+        android:id="@+id/TimeMax"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Максимум"
+        android:textSize="20dp"
+        android:layout_marginTop="230dp"
+        android:layout_marginStart="160dp" />
+
+    <TextView
+        android:id="@+id/TimeMax0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textSize="20dp"
+        android:layout_marginTop="260dp"
+        android:layout_marginStart="210dp" />
+
+    <TextView
+        android:id="@+id/TimeMiddle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Среднее"
+        android:textSize="20dp"
+        android:layout_marginTop="230dp"
+        android:layout_marginStart="290dp" />
+
+    <TextView
+        android:id="@+id/TimeMiddle0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textSize="20dp"
+        android:layout_marginTop="260dp"
+        android:layout_marginStart="330dp" />
+
+    <TextView
+        android:id="@+id/Prozent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0.00%"
+        android:textSize="50dp"
+        android:layout_marginTop="340dp"
+        android:layout_marginStart="150dp" />
+
+    <TextView
+        android:id="@+id/ZeroZero1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="00"
+        android:textSize="30dp"
+        android:layout_marginTop="440dp"
+        android:layout_marginStart="90dp" />
+
+    <TextView
+        android:id="@+id/txtEqulars"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="="
+        android:textSize="30dp"
+        android:layout_marginTop="440dp"
+        android:layout_marginStart="250dp" />
+
+    <EditText
+        android:id="@+id/txtResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="00"
+        android:textSize="30dp"
+        android:layout_marginTop="430dp"
+        android:layout_marginStart="350dp"
+        />
+
+    <Button
+        android:id="@+id/btnTrue"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:text="ВЕРНО"
+        android:layout_marginTop="550dp"
+        android:layout_marginStart="20dp"
+        app:cornerRadius="5dp" />
+
+
+    <Button
+        android:id="@+id/btnFalse"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:text="НЕВЕРНО"
+        android:layout_marginTop="550dp"
+        android:layout_marginStart="220dp"
+        app:cornerRadius="5dp" />
+
+    <Button
+        android:id="@+id/btnStart"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:text="СТАРТ"
+        android:layout_marginTop="650dp"
+        android:layout_marginStart="30dp"
+        app:cornerRadius="5dp" />
+</RelativeLayout>
